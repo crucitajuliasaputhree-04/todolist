@@ -1,7 +1,7 @@
 <?php
 /**
  * Aplikasi To-Do List Berbasis PHP & MySQL (XAMPP)
- * Dibuat untuk Uji Kompetensi Junior Web Programmer BNSP
+ * dibuat untuk tes LSP
  */
 
 // Konfigurasi Koneksi Database MySQL
@@ -112,7 +112,7 @@ $tasks_result = mysqli_query($conn, "SELECT * FROM tasks ORDER BY id DESC");
                             <form method="POST" action="" class="mb-4">
                                 <div class="input-group">
                                     <input type="text" name="title" class="form-control" placeholder="Tambahkan tugas baru..." required>
-                                    <button type="submit" name="add_task" class="btn btn-success">Tambah Tugas</button>
+                                    <button type="submit" name="add_task" class="btn btn-success">Tambah</button>
                                 </div>
                             </form>
                         <?php endif; ?>
