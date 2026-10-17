@@ -1,12 +1,13 @@
 # Aplikasi To-Do List
 
 ## Deskripsi
-Aplikasi sederhana berbasis PHP untuk mencatat tugas harian.
+Aplikasi sederhana berbasis PHP untuk mencatat kegiatan tugas harian.
 
 ## Fitur
 - Tambah tugas
 - Tandai tugas selesai
 - Hapus tugas
+- Edit tugas
 
 ## Struktur Folder
 - `index.php` - halaman utama
